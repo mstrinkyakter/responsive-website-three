@@ -569,10 +569,11 @@ footer .copyright{
     }
     #product1 .pro{
         width: 100%;
-        height: 55vh;
+        height: 57vh;
     }
     #banner{
-        height: 25vh;
+        height: 40vh;
+       
        
     }
     #sm-banner .banner-box{
@@ -596,6 +597,16 @@ footer .copyright{
     }
     footer .copyright{
         text-align: start;
+    }
+    footer .install .row img {
+        width: 25%;
+    }
+    footer .install img {
+       width: 50%;
+    }
+    .card{
+        bottom:5px;
+        right:10px;
     }
 }
 
