@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Ecommerce Website</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+    <!-- nav section  -->
+    <section id="header">
+        <a href=""><img class="logo" src="img/logo.png" alt=""></a>
+         <div>
+            <ul id="navbar">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html" >Blog</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a  class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+         </div> 
+         <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+           </div> 
+    </section>
+    <!-- hero section  -->
+    <section id="page-header" class="blog-header">
+        <h2>#Let's Talk</h2>
+        <p>Leave a Message ,we love to hear from you!</p>
+    </section>
+    <!-- contact and map section  -->
+   <section id="contact-details" class="section-p1">
+         <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>56 Glassford Street Glasgow G1 1UL New York</p>  
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>contact@example.com</p>  
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+88 01999999999</p>  
+                </li>
+                <li>
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Monday to Saturday: 9.00am to 16.pm</p>  
+                </li>
+            </div>
+         </div>
+         <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1221619758776!2d90.35993900000001!3d23.778663799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0bb8312f48f%3A0x2a22fd4c88cfd79e!2sKallyanpur%20Bus%20Stop!5e0!3m2!1sen!2sbd!4v1697127107750!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+   </section>
+    <!-- cart section  -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="img/shirt1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="img/shirt7.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="img/shirt5.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- cart add  -->
+    <section id="cart-add" class="section-p1">
+          <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+          </div>
+          <div id="Subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+          </div>
+    </section>
+    <!-- footer -->
+    <footer class="section-p1">
+       <div class="col">
+         <img class="logo" src="img/logo.png" alt="">
+         <h4>Contact</h4>
+         <p><strong>Address:</strong>562 Wellington Road, Street 32, San Francisco</p>
+         <p><strong>Phone:</strong>+012222365/(+91) 0123456789</p>
+         <p><strong>Hour:</strong>10:00 - 18:00, Mon - Sat</p>
+         <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+               <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-pinterest"></i>
+               <i class="fa-brands fa-youtube"></i>
+            </div>
+         </div>
+       </div>
+       <div class="col">
+         <h4>About</h4>
+         <a href="">About Us</a>
+         <a href="">Privacy Poliicy</a>
+         <a href="">Terms & Conditions</a>
+         <a href="">Contact Us</a>
+       </div>
+       <div class="col">
+         <h4>My Account</h4>
+         <a href="">Sign In</a>
+         <a href="">View Cart</a>
+         <a href="">My Wishlist</a>
+         <a href="">Track my Order</a>
+         <a href="">Help</a>
+       </div>
+       <div class="col install">
+           <h4>Install App</h4>
+           <p>From App Store or Google Play</p>
+           <div class="row">
+            <img src="img/logo2.png" alt="">
+            <img src="img/logo7.png" alt="">
+           </div>
+           <p>Secure Payment Gateway</p>
+           <img src="img/logo8.png" alt="">
+       </div>
+       <div class="copyright">
+         <p>&copy; 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+       </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
