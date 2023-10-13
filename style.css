@@ -287,6 +287,12 @@ button.normal{
     font-size: 28px;
     font-weight:800;
 }
+
+/* @media (min-width:1023px) {
+ 
+} */
+
+
 #sm-banner span{
     color: #fff;
     font-size: 14px;
@@ -541,6 +547,8 @@ footer .copyright{
     }
 }
 
+
+
 /* mobile device  */
 @media(max-width:477px){
     .section-p1{
@@ -571,9 +579,9 @@ footer .copyright{
     #feature .fe-box{
         margin:5px;
     }
-    #product1 .pro{
+    #product1 .pro {
         width: 100%;
-        height: 57vh;
+        height: 65vh;
     }
     #banner{
         height: 40vh;
@@ -691,6 +699,9 @@ footer .copyright{
 #prodetails .single-pro-details span{
     line-height:25px ;
 }
+
+
+
 @media(max-width:477px){
     #prodetails{
         display: flex;
@@ -761,6 +772,8 @@ footer .copyright{
     color: #c9cbce;
     z-index: -9;
 }
+
+
  /* blog page  */
 @media(max-width:477px){
     #blog {
@@ -811,6 +824,9 @@ footer .copyright{
     width: 100%;
     border-radius:20px ;
 }
+
+
+
     /* about page  */
     @media(max-width:477px){
         #about-head {
@@ -828,6 +844,21 @@ footer .copyright{
         #about-app .video{
             width: 100%;
             border-radius: 20px;
+        }
+        h1 {
+            font-size:30px;
+            color: #000;
+        }
+        #feature {
+            flex-direction: column;
+        }
+        #feature .fe-box {
+            width:90%;
+            margin: 0 0 15px 0;
+        }
+        #feature .fe-box img {
+            width:250px;
+            height:150px;
         }
     }
    
@@ -925,6 +956,8 @@ footer .copyright{
         padding: 80px;
         border: 1px solid #e1e1e1;
     }
+
+
     /* contact page  */
     @media (max-width:779px){
         #form-details{
@@ -934,6 +967,8 @@ footer .copyright{
         width: 50%;
     }
     }
+
+
     @media(max-width:477px){
         #contact-details {
             flex-direction: column;
@@ -1050,6 +1085,8 @@ footer .copyright{
         padding: 10px;
         font-size: 13px;
     }
+
+
     @media(max-width:477px){
         #cart-add {
             flex-direction: column;
