@@ -207,10 +207,23 @@ body{
 
 #product1 .pro-container{
     display: flex;
-    justify-content:space-between;
+    flex-direction:row;
+    justify-content:space-around;
     padding-top: 20px;
     flex-wrap: wrap;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+/* product  */
+@media (max-width:1024px) {
+    #product1 .pro {
+        width: 200px;
+        height: 350px;
+        box-shadow: 20px 20px 34px rgba(0,0,0,0);
+    }
+    #product1 .pro-container {
+        justify-content: space-between;
+    }
+  
 }
 /* banner section  */
 #banner{
